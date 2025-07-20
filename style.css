@@ -10,7 +10,11 @@ body {
   max-width: 1280px;
   margin: 0 auto;
   padding-inline: 16px;
-  
+}
+
+section { 
+  margin-block: 4rem;
+  padding-block: 4rem;
 }
 
 .header {
@@ -38,4 +42,45 @@ ul{
   margin: 0;
   padding: 0;
   gap: 18px;
+}
+
+.section-top {
+  background-color: #1F2937;
+  margin-top: 0;
+ }
+
+ .section-top .container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.h1 {
+  font-weight: 900;
+  font-size: 48px;
+  margin-bottom: 16px;
+}
+
+.description {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+p {
+  margin-bottom: 16px;
+}
+
+.button {
+  background-color: #3882f6 ;
+  color: #f9faf8;
+  padding: 8px 36px;
+  text-decoration: none;
+  border-radius: 7px;
+  display: inline-block;
+}
+
+.picture {
+  object-fit: cover;
+  height: 100%;
+  aspect-ratio: 3/1;
 }
